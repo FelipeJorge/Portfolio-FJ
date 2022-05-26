@@ -1,0 +1,8 @@
+.rodape{
+    border-top: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
