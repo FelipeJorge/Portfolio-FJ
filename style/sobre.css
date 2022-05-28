@@ -1,7 +1,28 @@
 #sobre{
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 4rem;
 }
 h1{
-    text-align: center;
+    text-align:left;
+}
+.sobre__img{
+    display: none;
+}
+@media screen and (min-width:768px){
+    #sobre{
+        display: flex;
+        justify-content: center;
+       
+    }
+    .sobre__img{
+        display: block;
+        width: 400px;
+        border-radius: 100%;
+    }
+    h1{
+    grid-column: 2 ; 
+    }
+
+    
+
 }

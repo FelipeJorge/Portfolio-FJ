@@ -14,3 +14,28 @@
 h3{
     text-align: center;
 }
+.contato__img{
+    display: none;
+}
+.contato__section{
+    display: none;
+}
+@media screen and (min-width:768px){
+    h3{
+        padding-top: 3rem;
+    }
+    .contato__img{
+        display: block;
+        border-radius: 100%;
+        width: 400px;
+    }
+    .contato__section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .contato__texto{
+        font-weight: bold;
+        font-size: 35px;
+    }
+}

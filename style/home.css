@@ -1,0 +1,14 @@
+.home{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2rem;
+}
+@media screen and (min-width:768px){
+    .home{
+        font-size: 4rem;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}

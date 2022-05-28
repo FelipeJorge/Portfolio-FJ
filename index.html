@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/home.css">
     <link rel="stylesheet" href="./style/base.css">
     <link rel="stylesheet" href="./style/cabecalho.css">
     <link rel="stylesheet" href="./style/sobre.css">
@@ -28,37 +29,67 @@
         </nav>
     </header>
     <main>
+        <section class="container">
+            <p class="home">Web Developer Student;</p>
+        </section>
         <section id="sobre" class="container">
-            <h1 class="titulo">Sobre</h1>
-            <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat aperiam quasi at nam fugiat, perferendis eligendi eius. Quod ea quasi ducimus iure molestiae, itaque tempore quidem vero asperiores optio aperiam.</p>
+            <img class="sobre__img" src="./assets/img/fj-fone-img.png" alt="avatar segurando uma fotografia">
+            <div class="sobre__section">
+                <h1 class="titulo">Sobre</h1>
+                <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat aperiam quasi at nam fugiat, perferendis eligendi eius. Quod ea quasi ducimus iure molestiae, itaque tempore quidem vero asperiores optio aperiam.</p>
+            </div>
         </section>
         <section id="projetos" class="container">
             <h2 class="titulo">Projetos</h2>
             <p class="texto projetos__texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat aperiam quasi at nam fugiat, perferendis eligendi eius. Quod ea quasi ducimus iure molestiae, itaque tempore quidem vero asperiores optio aperiam.</p>
-            <div class="projetos__img">
-                <a href="#"><img src="./assets/img/apeperia.JPG" alt="" class="projetos__img-grid" ></a>
-                <p class="projetos__img-descricao">Projeto desenvolvido para o estudo de responsividade, aplicando acessibilidade e metodologias css, a partir de layout do Figma.</p> 
-                <a href="#"><img src="./assets/img/fruta-fruto.JPG" alt="" class="projetos__img-grid" ></a>
-                <p class="projetos__img-descricao">Projeto desenvolvido com foco na metodologia BEM, e atomic design</p> 
-                <a href="#"><img src="./assets/img/tabelaimc.png" alt="" class="projetos__img-grid" ></a>
-                <p class="projetos__img-descricao">Tabela para cálculo de imc, com diversas funcionalidades, incluindo o cadastro de pacientes, remoção, e verificação de formulários em javascript </p> 
-                <a href="#"><img src="./assets/img/Project 4 -Sound - Alura.jpg" alt="" class="projetos__img-grid" ></a>
-                <p class="projetos__img-descricao">Projeto interativo desenvolvido para o estudo de clicks juntamente com reprodução de som em javascript.</p> 
-                <a href="#"><img src="./assets/img/Project 3 -HZC- Alura.png" alt="" class="projetos__img-grid" ></a>
-                <p class="projetos__img-descricao">Projeto HZC - Com foco em resposividade.</p> 
-                <a href="#"><img src="./assets/img/Project 1 -Landing- Page-NBA.jpg" alt="" class="projetos__img-grid" ></a>
-                <p class="projetos__img-descricao">Primeira Landing-Page - desenvolvida com o tema NBA.</p> 
+            <div class="projetos__grid">
+                <div class="projetos_card-grid">
+                    <a href="#"><img src="./assets/img/1.png" alt="" class="projetos__img-grid" ></a>
+                    <p class="projetos__titulo-descricao">Apeperia - Alura</p>
+                    <p class="projetos__img-descricao">Desenvolvido para o estudo de responsividade, aplicando acessibilidade e metodologias css, a partir de layout do Figma.</p>
+                </div> 
+                <div class="projetos_card-grid">
+                    <a href="#"><img src="./assets/img/6.png" alt="" class="projetos__img-grid" ></a>
+                    <p class="projetos__titulo-descricao">Tabela - IMC</p>
+                    <p class="projetos__img-descricao">Tabela para cálculo de imc, com diversas funcionalidades, incluindo o cadastro de pacientes, remoção, e verificação de formulários em javascript </p>
+                </div>      
+                <div class="projetos_card-grid">
+                    <a href="#"><img src="./assets/img/5.png" alt="" class="projetos__img-grid" ></a>
+                    <p class="projetos__titulo-descricao">Sound Buttons</p>
+                    <p class="projetos__img-descricao">Projeto interativo desenvolvido para o estudo de clicks juntamente com reprodução de som em javascript.</p>
+                </div>
+                <div class="projetos_card-grid"> 
+                    <a href="#"><img src="./assets/img/2.png" alt="" class="projetos__img-grid" ></a>
+                    <p class="projetos__titulo-descricao">Fruta & Fruto</p>
+                    <p class="projetos__img-descricao">Projeto desenvolvido com foco na metodologia BEM, e atomic design</p>
+                </div>
+                <div class="projetos_card-grid">     
+                    <a href="#"><img src="./assets/img/4.png" alt="" class="projetos__img-grid" ></a>
+                    <p class="projetos__titulo-descricao">HZC - Alura</p>
+                    <p class="projetos__img-descricao">Projeto HZC - Com foco em resposividade.</p>
+                </div>
+                <div class="projetos_card-grid">
+                    <a href="#"><img src="./assets/img/3.png" alt="" class="projetos__img-grid" ></a>
+                    <p class="projetos__titulo-descricao">Page NBA</p>
+                    <p class="projetos__img-descricao">Primeira Landing-Page - desenvolvida com o tema NBA.</p>
+                </div> 
 
             </div>
         </section>
         <section id="contato" class="container">
-            <h3 class="titulo">Contato</h3>
+            <div class="contato__section">
+                <img  src="./assets/img/fj-you-img.png" alt="" class="contato__img">
+                <p class="contato__texto">Gostou do meu trabalho?<br>
+                Vamos trabalhar juntos!</p>
+            </div>
+            <h3 class="titulo">Contato</h3>  
             <div class="contato__icones">
                 <a href="https://www.linkedin.com/in/felipe-jorge-domingos/"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/FelipeJorge"><i class="fa-brands fa-github-square"></i></a>
                 <a href="mailto:felipejorgecd@gmail.com"><i class="fa-solid fa-square-envelope"></i></a>
             </div>
         </section>
+        <script src="./main.js"></script>
 
 
 
