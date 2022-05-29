@@ -1,18 +1,15 @@
 #sobre{
     margin-top: 2rem;
     margin-bottom: 4rem;
-}
-h1{
-    text-align:left;
+    text-align: left;
 }
 .sobre__img{
     display: none;
 }
+
 @media screen and (min-width:768px){
     #sobre{
         display: flex;
-        justify-content: center;
-       
     }
     .sobre__img{
         display: block;
@@ -22,7 +19,4 @@ h1{
     h1{
     grid-column: 2 ; 
     }
-
-    
-
 }

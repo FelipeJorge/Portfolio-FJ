@@ -3,7 +3,7 @@
     margin-bottom: 4rem;
 }
 h2{
-    text-align: center;
+    text-align:left;
 }
 .projetos__texto{
     margin-bottom: 2rem;
@@ -12,6 +12,7 @@ h2{
 .projetos__grid-card{
     display: flex;
     flex-direction: column;
+    
 }
 
 .projetos__img-grid{
@@ -21,6 +22,7 @@ h2{
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    
 }
 .projetos__img-descricao{
     display: flex;
@@ -63,5 +65,11 @@ h2{
     }
     .projetos__grid-card{
         border-radius: 10px;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .projetos__grid-card:hover{
+        cursor: pointer;
     }
 }
