@@ -1,2 +1,4 @@
 # Portfolio-FJ
-Meu Portfólio 
+
+- Projeto/Portfólio 
+- Desenvolvido com intuito de apresentar projetos anteriores.
